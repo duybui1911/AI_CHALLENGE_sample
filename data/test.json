@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "Problem": "for a certain exam , a score of 58 was 2 standard deviations below mean and a score of 98 was 3 standard deviations above mean . what was the mean score w for the exam ?",
+        "options": "a ) 74 , b ) 76 , c ) 78 , d ) 80 , e ) 82",
+        "diagramRef": "",
+        "category": "general"
+    },
+    {
+        "id": 2,
+        "Problem": "a large box contains 18 small boxes and each small box contains 25 chocolate bars . how many chocolate bars are in the large box ?",
+        "options": "a ) 350 , b ) 250 , c ) 450 , d ) 550 , e ) 650",
+        "diagramRef": "",
+        "category": "general"
+    }
+]
