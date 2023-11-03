@@ -35,7 +35,7 @@ def main(args):
 
     test_examples = get_data(args.data)
     results = []
-    for problem in range(test_examples):
+    for problem in test_examples:
         ques = problem["Problem"]
         len_quest = 10 #hyperparameter
         add_text = 1 #hyperparameter

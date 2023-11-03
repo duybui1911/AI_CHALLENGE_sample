@@ -19,8 +19,11 @@ def get_data(path):
     data = read_jsonl(path)
 
     for ex in data:
-        ex.update(question=ex["Problem"] + "\n" + ex["options"])
-        ex.update(answer=ex["answer"] + "<|endoftext|>")
+        if ex["options"] != "":
+            ex.update(Problem=ex["Problem"] + "\n Options: " + ex["options"])
+        else:
+            ex.update(Problem=ex["Problem"] + "\n" + "The answer to the question is:")
+        #ex.update(answer=ex["answer"] + "<|endoftext|>")
         # Update the diagramRef tokenizer method here
 
     print(f"Loaded {len(data)} examples")
