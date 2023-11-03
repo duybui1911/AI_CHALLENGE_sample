@@ -6,7 +6,7 @@ Collaborative competition co-organized between [Applied Mathematics and Informat
 pip3 install -r requirements.txt
 ```
 
-## For loading model from huggingface or local:
+## For loading model from [huggingface](https://huggingface.co/) or local:
 ```
 python3 for_load_model.py --load [name or link model] --data [path to dataset]
 ```
