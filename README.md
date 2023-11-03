@@ -1,5 +1,5 @@
 # AI_CHALLENGE_sample
-Sample code for AI CHALLENGE: GPT PROBLEM SOLVERS
+Collaborative competition co-organized between AMIC - Câu lạc bộ Toán học ứng dụng và Tin học [link](https://www.facebook.com/AMIC.HUST) and Google Developer Student Club - Hanoi University of Science and Technology [link](https://www.facebook.com/gdsc.hust), under the permission of Hanoi University of Science and Technology.
 
 ## Installation
 ```
