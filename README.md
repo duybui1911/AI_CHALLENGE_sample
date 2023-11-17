@@ -8,7 +8,7 @@ pip3 install -r requirements.txt
 
 ## For loading model from [huggingface](https://huggingface.co/) or local:
 ```
-python3 for_load_model.py --load [name or link model] --data [path to dataset]
+python3 for_load_model_GPT2.py --load [name or link model] --data [path to dataset]
 ```
 
 ## For request API
