@@ -7,6 +7,7 @@ from dataset import get_data
 
 
 def get_response(args, user_request, max_len, temp):
+    ###
     responese = openai.Completion.create(
         engine = args.model_name,
         prompt = user_request,
@@ -37,7 +38,7 @@ def convert_to_submit_file(api_result: list = []):
 
 def main(args):
     with open("openai_api_key.txt", "r") as f:
-        openai.api_key = f.readline()
+        openai.api_key = f.readline() ###
         test_examples = get_data(args.data)
         results = []
         with open('./results/results.txt', 'r') as read:

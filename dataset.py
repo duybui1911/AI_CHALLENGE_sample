@@ -9,7 +9,6 @@ def read_jsonl(path: str):
         data = json.load(f)
         return data
 
-
 def get_data(path):
     '''
         If there are many json files to load:
@@ -23,8 +22,9 @@ def get_data(path):
             ex.update(Problem=ex["Problem"] + "\n Options: " + ex["options"])
         else:
             ex.update(Problem=ex["Problem"] + "\n" + "The answer to the question is:")
-        #ex.update(answer=ex["answer"] + "<|endoftext|>")
+        #ex.update(Rationale=ex["answer"] + "<|endoftext|>")
         # Update the diagramRef tokenizer method here
+        
 
     print(f"Loaded {len(data)} examples")
     return data
